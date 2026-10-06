@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy · Canteen</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<meta name="description" content="Canteen Privacy Policy: what Canteen stores, where it lives, and the one thing that leaves only if you choose." />
+<link rel="stylesheet" href="canteen.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="/"><img src="icon-512.png" alt="Canteen app icon"><span class="wm">Canteen</span></a>
+    <nav class="links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="mailto:support@canteenwaterapp.com">Support</a>
+    </nav>
+  </header>
+
+  <main class="doc">
+    <a class="back" href="/">← Home</a>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective October 5, 2026 · Version 1.0 · <a href="mailto:support@canteenwaterapp.com">support@canteenwaterapp.com</a></p>
+    <hr />
+
+    <section><h2><span class="n">1</span> Who we are</h2>
+      <p>Canteen is a water tracker for iPhone. It runs on your iPhone. This policy covers the Canteen app and this website, canteenwaterapp.com. Canteen is made by its independent developer, reachable at <a href="mailto:support@canteenwaterapp.com">support@canteenwaterapp.com</a>.</p></section>
+
+    <section><h2><span class="n">2</span> The short version</h2>
+      <div class="model"><span class="mh">Everything runs on your device</span>Canteen has no account and no server. Your water entries, goals, reminders, containers, and settings live in Canteen's own storage on this iPhone.</div>
+      <div class="model"><span class="mh">You choose what leaves</span>Your entries can leave only in ways you start: shared to Apple Health, written to a file you export, or counted in anonymous usage data if you turn that on.</div>
+      <p>Everything below explains these in full. Canteen sends usage data only if you turn on <strong>Share usage data</strong> in Settings. Everything else on this page stays true either way.</p></section>
+
+    <section><h2><span class="n">3</span> What Canteen stores, and where</h2>
+      <p>Everything Canteen records lives on your iPhone, inside Canteen's own storage in a private app container. Canteen holds it in two separate stores.</p>
+      <p><strong>The durable store</strong> holds your water entries and their edit history, your containers, your goal history, your reminder settings, and your app settings. This store is part of your own device or iCloud backup when you use one, so your history can travel with you to a new iPhone.</p>
+      <p><strong>The Health cache</strong> holds a temporary copy of the Apple Health water samples Canteen reads for a recent window of days. Canteen can rebuild it at any time by reading Apple Health again. This store is left out of every backup, and Canteen never includes it in an export.</p></section>
+
+    <section><h2><span class="n">4</span> Apple Health</h2>
+      <p>Canteen works with Apple Health for one kind of data only: Dietary Water. It asks for permission to read and write water, and only after you tap Connect. Canteen requests no other health data of any kind.</p>
+      <p>Apple Health sync is off at the start, and Canteen is complete on its own. When you turn on <strong>Sync with Apple Health</strong>, Canteen reads shared water into your daily totals and writes the water you log in Canteen back to Health. Any water you share is governed by Apple Health and by your own iCloud Health settings, which you control in iPhone Settings and in the Health app.</p>
+      <p>When you turn sync off, Canteen stops writing to Health, discards its pending Health work, clears its temporary Health cache, and stops watching Health for changes. Water Canteen already wrote to Health stays in Health; you can remove it in the Health app under Sources → Canteen → Delete All Data.</p></section>
+
+    <section><h2><span class="n">5</span> Export</h2>
+      <p>Export is something you start. Tap <strong>Export CSV</strong> and Canteen builds a file of your active Canteen entries, one row per entry. Canteen shares the file through the iPhone share sheet, so it goes only to the destination you choose, and it makes no network request. The temporary file is removed after you finish sharing or on the next launch. The file holds your own Canteen entries only; deleted entries and Apple Health entries are left out.</p></section>
+
+    <section><h2><span class="n">6</span> Reminders, widgets, and Siri</h2>
+      <p>Canteen's reminders are local notifications scheduled on your iPhone. Canteen schedules them only when you are meaningfully behind your goal during your waking hours, and they go quiet once you are on pace.</p>
+      <p>Canteen's Lock Screen and Home Screen widgets show a small snapshot of today's progress that Canteen prepares on the device. You can hide the amounts on the Lock Screen from the widget guide in Settings.</p>
+      <p>Canteen offers two actions to Siri and the Shortcuts app, Log Primary Container and Log Water. When you run one, it logs water through the same on-device storage every other part of Canteen uses.</p></section>
+
+    <section><h2><span class="n">7</span> Usage data (off until you turn it on)</h2>
+      <p>Canteen can share a small set of <strong>anonymous</strong> usage counts to help the developer understand which features are used and improve the app. This is off at the start. You turn it on with <strong>Share usage data</strong> in Settings → Privacy, and you can turn it off again at any time, which stops new usage data right away.</p>
+      <p>When it is on, Canteen sends counts and categories such as: that setup finished and whether your first bottle was a preset or custom; your first log's source and how long setup to first log took, in ranges; that you were active on a day, in ranges, with how many logs, in ranges; which quick add slot you used; that you used Other amount; that you logged from the widget or a reminder; that you turned reminders or Apple Health sync on or off; that you added a container, and its shape; that you used Export; and that you opened Send feedback.</p>
+      <p>Canteen <strong>never</strong> sends an amount, a goal, a container size, a time finer than the day, or anything from Apple Health. The full list is shown in the app under <strong>What Canteen sends</strong>.</p>
+      <p><span class="num">·</span> <strong>Who processes it.</strong> We use <strong>PostHog</strong>, a US-based product-analytics provider, as our processor. Usage data is tied to a random identifier generated on your device, never to your name, your email, your Apple ID, or an advertising identifier. No profile of you is created. Canteen's PostHog project is set to discard the client IP address, so no location is derived from it. Canteen requests no tracking permission and uses no advertising identifier, and usage data is never used for advertising or sold.</p>
+      <p><span class="num">·</span> <strong>How long it is kept, and deleting it.</strong> Usage data is kept for up to one year. To ask for anything already sent to be deleted, use <strong>Send feedback</strong> in the app and include your anonymous ID, or write to <a href="mailto:support@canteenwaterapp.com">support@canteenwaterapp.com</a>. Your anonymous ID is shown on the Privacy screen once you have turned sharing on. Deletion happens within 30 days.</p></section>
+
+    <section><h2><span class="n">8</span> Feedback</h2>
+      <p>Canteen has a <strong>Send feedback</strong> option. The note you write is sent only when you choose to send it. Canteen attaches your app version, build, and device model to help diagnose issues, and these are visible and editable before anything is sent. Canteen does not attach your water history, amounts, goals, or Apple Health data. If feedback is delivered through email, it goes to the developer's inbox and carries whatever reply address your Mail account uses.</p></section>
+
+    <section><h2><span class="n">9</span> Crash reports</h2>
+      <p>Canteen carries no third-party crash reporter. If a crash report reaches the developer, it comes only through Apple's own opt-in pipeline, which you control in your iPhone privacy settings. Apple's App Analytics and crash reports are handled by Apple under Apple's terms.</p></section>
+
+    <section><h2><span class="n">10</span> App Store privacy label</h2>
+      <p>Because usage sharing and feedback can send data off the device when you turn them on, Canteen's App Store privacy label is <strong>Data Collected · Not Linked to You · No Tracking</strong>: Usage Data for analytics, and the text of any feedback you choose to send. Both are tied to a random identifier rather than to your identity. Nothing else about you is collected.</p></section>
+
+    <section><h2><span class="n">11</span> Deleting your data</h2>
+      <p><strong>Delete local data</strong> in Settings resets Canteen. It cancels your Canteen notifications, stops watching Apple Health, discards Canteen's pending Health work and its temporary Health cache, deletes the durable store and your settings, and starts onboarding over. Water Canteen already wrote to Apple Health stays in Health; remove that in the Health app as described in section 4.</p>
+      <p>You can also delete Canteen from your iPhone, which removes its on-device storage with it. To delete usage data already sent while sharing was on, see section 7.</p></section>
+
+    <section><h2><span class="n">12</span> Children</h2>
+      <p>Canteen is a general-audience app and is not directed to children. It asks for no age, no name, and no contact details, and it keeps your entries on your device. The only data that can leave, usage counts and feedback you send, is off until you turn it on and is anonymous when on.</p></section>
+
+    <section><h2><span class="n">13</span> Changes to this policy</h2>
+      <p>When this policy changes, the new version is posted here with a new effective date. Meaningful changes to how Canteen handles your data will also be surfaced in the app.</p></section>
+
+    <section><h2><span class="n">14</span> Contact</h2>
+      <p>Questions or requests about privacy in Canteen can go to <a href="mailto:support@canteenwaterapp.com">support@canteenwaterapp.com</a>. Help inside the app opens a plain email link, and nothing is attached to it automatically.</p></section>
+
+    <p class="crosslink">See also the <a href="terms.html">Terms of Service</a>.</p>
+  </main>
+
+  <footer class="foot">
+    <div>
+      <a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="mailto:support@canteenwaterapp.com">Support</a>
+    </div>
+    <div>© 2026 Canteen</div>
+  </footer>
+
+</body>
+</html>
