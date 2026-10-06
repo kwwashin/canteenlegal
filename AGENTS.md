@@ -6,8 +6,8 @@ This file is the project's committed home for project-intrinsic agent knowledge:
 
 ## What this repo is
 
-Public static site for `canteenwaterapp.com`: the Canteen landing page plus `privacy.html` and `terms.html`.
-Plain HTML + one stylesheet (`canteen.css`), no build step, no JS, no CI. Served by GitHub Pages from `main`; `CNAME` holds the domain. Modeled on the sibling LEAF site at `firstmate/projects/leaflegal`.
+Public static site for `canteenwaterapp.com`, kept **deliberately minimal** (captain steer, 2026-10-05): a one-screen landing page (`index.html`) and a short `privacy.html`. No terms page (Apple's standard EULA covers a free app with no account or purchase).
+Plain HTML + one stylesheet (`canteen.css`), no build step, no JS, no CI. Served by GitHub Pages from `main`; `CNAME` holds the domain. On-page icon uses `apple-touch-icon.png`.
 
 ## Sources of truth (do not copy app facts from memory; re-read these)
 
@@ -17,9 +17,9 @@ Plain HTML + one stylesheet (`canteen.css`), no build step, no JS, no CI. Served
 
 ## Watch-outs
 
-- SPEC §6 says v1 is **free with no StoreKit/IAP**. `terms.html` §5 carries forward-compatible wording for a possible future one-time unlock, flagged for captain review; do not assert an unlock ships today.
-- Copy rules: no em dashes anywhere (middot `·` is fine), no corrective-contrast phrasing ("No X. No Y.", "not X but Y", "less A more B"). State things plainly and positively.
-- Open captain wordings live in `privacy.html` (children/age, device-backup posture, analytics retention/deletion) and `terms.html` §5/§11 (payments, governing law). Re-confirm before finalizing.
+- Keep it minimal: say only what a landing page and privacy policy must. The captain explicitly cut the feature band, terms page, and the "short version" card. Do not re-add marketing copy or detail without a steer.
+- Copy rules: no em dashes anywhere (middot `·` is fine), and **nothing defined by what it is not** ("rather than", "not X", "No X.", "No X. No Y.", "less A more B"). State things plainly and positively.
+- Privacy is free (SPEC §6, no StoreKit/IAP), so no payments/terms wording is needed on the site.
 - Verify no horizontal scroll at 390px and 1280px after layout changes (`chrome-devtools-axi emulate --viewport "390x844x3,mobile"`, check `scrollWidth > innerWidth`).
 
 ## Maintaining this file
